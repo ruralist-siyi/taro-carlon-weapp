@@ -1,7 +1,7 @@
 import Taro from '@tarojs/taro';
 import {getRandomStr} from './index';
 
-const baseUrl = 'http://192.168.3.122:8035';
+const baseUrl = 'http://116.62.152.199:8035';
 
 export function createApiRequest(url, data = {}, method = 'POST', checkToken = true) {
    return Taro.request({

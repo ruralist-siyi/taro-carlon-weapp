@@ -1,7 +1,7 @@
 import Taro, {Component} from '@tarojs/taro';
-import {View, Button, Text, AtMessage} from '@tarojs/components';
+import {View, Button, Text} from '@tarojs/components';
 import {observer, inject} from '@tarojs/mobx';
-import {AtGrid, AtButton} from "taro-ui";
+import {AtGrid, AtButton, AtMessage} from "taro-ui";
 import styles from './index.module.less';
 import iconApplication from './../../assets/images/icon-application.png';
 import iconHomeVisit from './../../assets/images/icon-homeVisit.png';
